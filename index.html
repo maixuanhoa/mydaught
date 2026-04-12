@@ -664,13 +664,15 @@ section { padding: 80px 0; }
 </nav>
 
 <!-- Mobile Menu -->
-<a href="https://baoyenedu.blogspot.com">Blog</a>
-  <div class="mobile-link" onclick="showPage('home');toggleMenu()">🏠 Trang chủ</div>
-  <div class="mobile-link" onclick="showPage('home');scrollTo('categories');toggleMenu()">📖 Học tiếng Hàn</div>
-  <div class="mobile-link" onclick="showPage('home');scrollTo('topik');toggleMenu()">📝 TOPIK</div>
-  <div class="mobile-link" onclick="showPage('home');scrollTo('blog');toggleMenu()">✍️ Blog</div>
-  <div class="mobile-link" onclick="showPage('about');toggleMenu()">👩 Về Bảo Yến</div>
-  <div class="mobile-link" onclick="scrollTo('signup');toggleMenu()" style="color:var(--primary);font-weight:700">📚 Nhận tài liệu FREE</div>
+<div class="mobile-menu-container"> 
+    <div class="mobile-link" onclick="showPage('home'); toggleMenu()">🏠 Trang chủ</div>
+    <div class="mobile-link" onclick="showPage('home'); scrollTo('categories'); toggleMenu()">📖 Học tiếng Hàn</div>
+    <div class="mobile-link" onclick="showPage('home'); scrollTo('topik'); toggleMenu()">📝 TOPIK</div>
+    
+    <a href="https://baoyenedu.blogspot.com" class="mobile-link" style="text-decoration: none; color: inherit; display: block;">✍️ Blog</a>
+    
+    <div class="mobile-link" onclick="showPage('about'); toggleMenu()">👩‍🏫 Về Bảo Yến</div>
+    <div class="mobile-link" onclick="scrollTo('signup'); toggleMenu()" style="color:var(--primary); font-weight: bold;">📚 Nhận tài liệu FREE</div>
 </div>
 
 <!-- ══════════ HOME PAGE ══════════ -->
